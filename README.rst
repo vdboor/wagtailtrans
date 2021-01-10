@@ -1,53 +1,26 @@
-.. image:: https://raw.githubusercontent.com/wagtail/wagtailtrans/master/docs/source/_static/wagtailtrans-logo.png
+.. image:: https://raw.githubusercontent.com/carrotandcompany/wagtailtrans/master/docs/source/_static/wagtailtrans-logo.png
     :alt: Wagtailtrans logo
 
 
-.. image:: https://travis-ci.org/wagtail/wagtailtrans.svg?branch=master
-    :target: https://travis-ci.org/wagtail/wagtailtrans
-    :alt: Build status
 
-.. image:: https://codecov.io/gh/wagtail/wagtailtrans/branch/master/graph/badge.svg
-    :target: https://codecov.io/gh/wagtail/wagtailtrans
-    :alt: Code coverage
+Migration Fork of wagtail multilanguage module (wagtailtrans)
+=============================================================
 
-.. image:: https://badge.fury.io/py/wagtailtrans.svg
-    :target: https://badge.fury.io/py/wagtailtrans
-    :alt: PyPi version
+This is a fork of `wagtailtrans <https://github.com/wagtail/wagtailtrans>`_ with the only purpose making the migration
+from wagtailtrans to wagtail's new built-in interantionalization system (version 2.11+) and add wagtail-localize
+as the translation frontend.
 
-.. image:: https://readthedocs.org/projects/wagtailtrans/badge/?version=latest
-    :target: http://wagtailtrans.readthedocs.io/en/latest/?badge=latest
-    :alt: Documentation Status
+Getting Started with the Migration
+----------------------------------
 
+Follow our `Migration Guide <https://www.cnc.io/en/blog/wagtailtrans-to-wagtail-localize-migration>`_
 
-Wagtail multilanguage module
-============================
+Disclaimer
+----------
 
-Support multiple languages for your Wagtail site.
-
-Requirements
-------------
-
- - Python 3.5+
- - Django 2+
- - Wagtail 2.7+
+This fork and the guide is provided by Carrot & Company which is in no relation to Torchbox and Wagtail. We just love
+Wagtail and wanted to help with the migration to the new Wagtail version. We only made
+changes which helps for the migrations, no additional features added and it is also not recommended for other use as
+to migrate to wagtail-localize.
 
 
-Getting started
----------------
-
-Follow our `Getting Started <http://wagtailtrans.readthedocs.io/en/latest/getting_started.html>`_ guide to start integrating Wagtailtrans.
-
-
-Documentation
--------------
-
-The complete project documentation can be found on `Read the Docs <http://wagtailtrans.readthedocs.io/>`_
-
-
-Who's using it?
----------------
-
-If you want to see some examples on how Wagtailtrans is running in a production environment you can take a look at the following websites:
-
-* `Hendrix Genetics <https://www.hendrix-genetics.com/>`_
-* `Wiskerke Onions <https://www.wiskerke-onions.nl/>`_

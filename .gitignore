@@ -20,3 +20,5 @@ docs/_build
 coverage.xml
 db.sqlite3
 tests/_sandbox/settings/local_settings.py
+
+env/

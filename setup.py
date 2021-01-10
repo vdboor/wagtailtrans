@@ -9,7 +9,8 @@ sys.path.append(os.path.join(PROJECT_DIR, 'src'))
 from wagtailtrans import get_version  # noqa isort:skip
 
 install_requires = [
-    'wagtail>=2.7,<2.11'
+    # removed the wagtail <2.11 as this is exactly where we wanna upgrade and migrate to.
+    'wagtail>=2.7'
 ]
 
 sandbox_require = [
