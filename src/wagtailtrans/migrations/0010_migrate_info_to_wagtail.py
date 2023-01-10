@@ -25,6 +25,7 @@ def transfer_info(apps, schema_editor):
 class Migration(migrations.Migration):
 
     dependencies = [
+        ("wagtailcore", "0059_apply_collection_ordering"),  # so wagtail 2.11 models are available.
         ("wagtailtrans", "0009_create_initial_language"),
     ]
 

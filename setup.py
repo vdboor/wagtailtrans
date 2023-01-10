@@ -10,7 +10,8 @@ from wagtailtrans import get_version  # noqa isort:skip
 
 install_requires = [
     # removed the wagtail <2.11 as this is exactly where we wanna upgrade and migrate to.
-    'wagtail>=2.7'
+    # minimal version of 2.11 so it can run the migration for transitioning to wagtailcore.Locale
+    'wagtail>=2.11',
 ]
 
 sandbox_require = [
