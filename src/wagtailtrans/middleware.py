@@ -43,7 +43,7 @@ class TranslationMiddleware(MiddlewareMixin):
         active_language = None
 
         language_from_request = get_language_from_request(request)
-        requested_languages = request.META.get('HTTP_ACCEPT_LANGUAGE')
+        requested_languages = request.headers.get('accept-language')
 
         # Backwards-compatible lookup for the deprecation of Wagtails SiteMiddleware per 2.9
         if 'wagtail.core.middleware.SiteMiddleware' in settings.MIDDLEWARE:
